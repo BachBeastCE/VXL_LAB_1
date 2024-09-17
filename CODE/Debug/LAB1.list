@@ -35,17 +35,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_rnglists 00000316  00000000  00000000  000074e8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00015ab6  00000000  00000000  000077fe  2**0
+ 16 .debug_macro  00015a37  00000000  00000000  000077fe  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00005971  00000000  00000000  0001d2b4  2**0
+ 17 .debug_line   0000592b  00000000  00000000  0001d235  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    00079ff2  00000000  00000000  00022c25  2**0
+ 18 .debug_str    00079dd3  00000000  00000000  00022b60  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0009cc17  2**0
+ 19 .comment      00000043  00000000  00000000  0009c933  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00000eb0  00000000  00000000  0009cc5c  2**2
+ 20 .debug_frame  00000eb0  00000000  00000000  0009c978  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000053  00000000  00000000  0009db0c  2**0
+ 21 .debug_line_str 00000053  00000000  00000000  0009d828  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -582,9 +582,9 @@ int main(void)
   //GPIO_INIT_LAB1_EX5();
   //GPIO_INIT_LAB1_EX6();
   //GPIO_INIT_LAB1_EX7();
-  GPIO_INIT_LAB1_EX10(11, 59, 45);
+  GPIO_INIT_LAB1_EX10(11, 49, 45); // 11h 49m 45s
  80004b0:	222d      	movs	r2, #45	@ 0x2d
- 80004b2:	213b      	movs	r1, #59	@ 0x3b
+ 80004b2:	2131      	movs	r1, #49	@ 0x31
  80004b4:	200b      	movs	r0, #11
  80004b6:	f7ff fee5 	bl	8000284 <GPIO_INIT_LAB1_EX10>
   while (1)
