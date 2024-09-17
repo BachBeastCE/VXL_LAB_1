@@ -23,7 +23,7 @@
 /* USER CODE BEGIN Includes */
 #include "LAB1_EX0.h"
 //#include "LAB1_EX1.h"
-//#include "LAB1_EX2.h"
+#include "LAB1_EX2.h"
 //#include "LAB1_EX3.h"
 //#include "LAB1_EX4.h"
 //#include "LAB1_EX5.h"
@@ -100,7 +100,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   GPIO_INIT_LAB1_EX0();
   //GPIO_INIT_LAB1_EX1();
-  //GPIO_INIT_LAB1_EX2();
+  GPIO_INIT_LAB1_EX2();
   //GPIO_INIT_LAB1_EX3();
   //GPIO_INIT_LAB1_EX4();
   //GPIO_INIT_LAB1_EX5();
@@ -111,7 +111,7 @@ int main(void)
   {
 	 EXECUTE_LAB1_EX0();
 	 //EXECUTE_LAB1_EX1();
-	 //EXECUTE_LAB1_EX2();
+	 EXECUTE_LAB1_EX2();
 	 //EXECUTE_LAB1_EX3();
 	 //EXECUTE_LAB1_EX4();
 	 //EXECUTE_LAB1_EX5();
