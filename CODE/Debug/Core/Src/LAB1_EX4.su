@@ -1,0 +1,3 @@
+../Core/Src/LAB1_EX4.c:5:6:display7SEG	16	static
+../Core/Src/LAB1_EX4.c:112:6:GPIO_INIT_LAB1_EX4	32	static
+../Core/Src/LAB1_EX4.c:130:6:EXECUTE_LAB1_EX4	8	static

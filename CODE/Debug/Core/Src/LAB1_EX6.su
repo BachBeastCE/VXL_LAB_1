@@ -1,0 +1,9 @@
+../Core/Src/LAB1_EX6.c:6:6:clearAllClock	16	static
+../Core/Src/LAB1_EX6.c:14:6:setNumberOnClock	16	static
+../Core/Src/LAB1_EX6.c:18:6:clearNumberOnClock	16	static
+../Core/Src/LAB1_EX6.c:23:6:GPIO_INIT_LAB1_EX6	32	static
+../Core/Src/LAB1_EX6.c:39:6:EXECUTE_LAB1_EX6	8	static
+../Core/Src/LAB1_EX6.c:52:6:GPIO_INIT_LAB1_EX7	8	static
+../Core/Src/LAB1_EX6.c:55:6:EXECUTE_LAB1_EX7	8	static
+../Core/Src/LAB1_EX6.c:64:6:GPIO_INIT_LAB1_EX10	24	static
+../Core/Src/LAB1_EX6.c:72:6:EXECUTE_LAB1_EX10	8	static
