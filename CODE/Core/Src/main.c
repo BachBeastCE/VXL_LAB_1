@@ -22,7 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "LAB1_EX0.h"
-//#include "LAB1_EX1.h"
+#include "LAB1_EX1.h"
 //#include "LAB1_EX2.h"
 //#include "LAB1_EX3.h"
 //#include "LAB1_EX4.h"
@@ -99,7 +99,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   GPIO_INIT_LAB1_EX0();
-  //GPIO_INIT_LAB1_EX1();
+  GPIO_INIT_LAB1_EX1();
   //GPIO_INIT_LAB1_EX2();
   //GPIO_INIT_LAB1_EX3();
   //GPIO_INIT_LAB1_EX4();
@@ -110,7 +110,7 @@ int main(void)
   while (1)
   {
 	 EXECUTE_LAB1_EX0();
-	 //EXECUTE_LAB1_EX1();
+	 EXECUTE_LAB1_EX1();
 	 //EXECUTE_LAB1_EX2();
 	 //EXECUTE_LAB1_EX3();
 	 //EXECUTE_LAB1_EX4();
